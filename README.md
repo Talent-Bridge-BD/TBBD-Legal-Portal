@@ -355,3 +355,4 @@ Unauthorized copying, modification, or redistribution is not permitted without a
 © Talent Bridge BD (TBBD). All rights reserved.
 
 Deployment test Mon Jul 27 10:21:06 +06 2026
+Azure workflow trigger Mon Jul 27 10:28:37 +06 2026
