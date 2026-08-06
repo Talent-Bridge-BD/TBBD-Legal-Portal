@@ -1,56 +1,26 @@
 # TBBD Legal Portal
 
-> Enterprise legal, privacy, compliance, security, and responsible AI documentation platform for **Talent Bridge BD (TBBD)** digital services, Microsoft cloud solutions, and AI-powered applications.
+## Overview
 
-**Document Version:** v1.0.0
-**Last Updated:** August 2026
-**Owner:** Talent Bridge BD Technology Team
-**Classification:** Public
+TBBD Legal Portal is the official legal documentation platform for **Talent Bridge BD (TBBD)** digital services, applications, and AI-powered solutions.
 
-![Platform](https://img.shields.io/badge/Platform-Microsoft%20Azure-0078D4)
-![Website](https://img.shields.io/badge/Website-Azure%20Static%20Web%20Apps-blue)
-![AI](https://img.shields.io/badge/AI-Azure%20AI-00A4EF)
-![Cloud](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4)
-![Status](https://img.shields.io/badge/Status-Production-success)
-![Framework](https://img.shields.io/badge/Framework-v1.0.0-blue)
-![License](https://img.shields.io/badge/License-Proprietary-red)
+This portal provides transparent access to legal, privacy, and governance information for users, customers, partners, and application reviewers.
 
----
-
-# Overview
-
-TBBD Legal Portal is the official public legal and compliance documentation platform for **Talent Bridge BD (TBBD)** digital services, enterprise applications, Microsoft cloud solutions, and AI-powered platforms.
-
-The portal provides transparent access to legal, privacy, governance, compliance, security, and responsible technology information for employees, customers, partners, application reviewers, and external users.
-
-The platform demonstrates TBBD's commitment to:
-
-* Secure digital services
-* Responsible AI practices
-* Privacy protection
-* Enterprise governance
-* Transparency
-* Regulatory compliance
-* Customer trust
-
-This repository contains the public legal documentation, deployment resources, governance guidance, and website source code for the TBBD Legal Portal.
+The portal supports TBBD's commitment to secure, responsible, and transparent technology services.
 
 ---
 
 # Supported TBBD Services
 
-This legal portal provides documentation for:
+This legal portal supports documentation for:
 
-* TBBD Workplace Assistant
-* TBBD TalentAI
-* TBBD HR Portal
-* TBBD HR Copilot
-* Microsoft Teams Applications
-* Microsoft 365 Solutions
-* Azure AI-powered Services
-* Enterprise Automation Services
-* Customer-facing Applications
-* Future TBBD Digital Platforms
+- TBBD Workplace Assistant
+- TBBD TalentAI
+- TBBD HR Copilot
+- Microsoft Teams applications
+- Azure AI-powered solutions
+- Enterprise automation services
+- Future TBBD digital platforms
 
 ---
 
@@ -58,69 +28,21 @@ This legal portal provides documentation for:
 
 The TBBD Legal Portal provides documentation covering:
 
-* Privacy Statement
-* Terms of Service
-* Cookie Policy
-* User Rights and Responsibilities
-* Data Protection Practices
-* AI Governance Principles
-* Responsible AI Guidelines
-* Security and Trust Information
-* Compliance Information
-* Acceptable Use Policies
+- Privacy practices
+- Terms of service
+- Cookie usage
+- User rights and responsibilities
+- Data protection information
+- AI governance principles
+- Security and trust information
 
-The purpose of this portal is to provide clear and publicly accessible information describing how Talent Bridge BD:
-
-* Collects and processes information
-* Protects user privacy
-* Secures enterprise data
-* Uses Microsoft cloud technologies
-* Applies responsible AI practices
-* Maintains governance standards
-
----
-
-# Responsible AI Commitment
-
-TBBD develops and operates AI-powered services following responsible AI principles.
-
-Our AI governance approach focuses on:
-
-* Transparency
-* Human oversight
-* Security
-* Privacy protection
-* Fair and responsible usage
-* Data protection
-* Appropriate AI application controls
-
-TBBD AI-powered services are designed with consideration for Microsoft Responsible AI principles and enterprise governance practices.
-
----
-
-# Security and Compliance
-
-TBBD digital services are designed using Microsoft cloud security capabilities and enterprise governance practices.
-
-Security controls include:
-
-* Microsoft Entra ID identity management
-* Azure Role-Based Access Control (RBAC)
-* Conditional Access policies
-* Microsoft Defender security capabilities
-* Microsoft Sentinel monitoring
-* Data encryption practices
-* Secure CI/CD deployment processes
-* Access governance controls
-* Security monitoring and review processes
-
-TBBD continuously reviews security controls, technology changes, and compliance requirements to support secure and trusted digital services.
+The purpose is to provide clear information about how TBBD manages user data, delivers services, and applies responsible technology practices.
 
 ---
 
 # Repository Structure
 
-```text
+```
 TBBD-Legal-Portal
 │
 ├── README.md
@@ -140,108 +62,98 @@ TBBD-Legal-Portal
 
 ### File
 
-```text
+```
 index.html
 ```
 
 ### Purpose
 
-The primary landing page for the TBBD Legal Portal.
+The main landing page for the TBBD Legal Portal.
 
-The homepage provides:
+Provides:
 
-* Introduction to Talent Bridge BD
-* Legal documentation overview
-* Service information
-* Navigation links
-* Compliance resources
-* Contact information
+- TBBD introduction
+- Available legal documents
+- Service information
+- Contact information
+- Navigation links
 
-### Public URL
+Public URL:
 
-```text
+```
 https://legal.talentbridgebd.com
 ```
 
 ---
 
-## 2. Privacy Statement
+# 2. Privacy Statement
 
 ### File
 
-```text
+```
 privacy.html
 ```
 
 ### Purpose
 
-The Privacy Statement explains how personal information is collected, processed, stored, protected, and retained.
+The TBBD Privacy Statement explains how personal information is collected, processed, stored, and protected.
 
 Coverage includes:
 
-* User Information
-* Employee Information
-* Customer Information
-* Authentication Data
-* Microsoft 365 Service Data
-* Microsoft Entra ID Information
-* Azure Service Data
-* AI Assistant Interactions
-* Security Monitoring
-* Cookies
-* Data Protection Practices
-* User Privacy Rights
-* Data Retention
-* International Data Transfers
+- User information
+- Employee information
+- Customer information
+- Account information
+- Authentication information
+- Microsoft 365 service data
+- Azure service data
+- AI assistant interaction data
+- Security monitoring information
+- Data protection practices
+- User privacy rights
 
 Applies to:
 
-* TBBD Workplace Assistant
-* TBBD TalentAI
-* TBBD HR Portal
-* TBBD HR Copilot
-* Microsoft Teams Applications
-* Microsoft 365 Services
-* Azure AI Services
+- TBBD Workplace Assistant
+- TBBD TalentAI
+- TBBD HR Copilot
+- Microsoft Teams integrations
+- Azure AI services
 
-### Public URL
+Public URL:
 
-```text
+```
 https://legal.talentbridgebd.com/privacy
 ```
 
 ---
 
-## 3. Terms of Service
+# 3. Terms of Service
 
 ### File
 
-```text
+```
 terms.html
 ```
 
 ### Purpose
 
-The Terms of Service define conditions, responsibilities, acceptable usage requirements, and legal obligations governing TBBD digital services.
+The TBBD Terms of Service define the conditions, responsibilities, and acceptable usage requirements for TBBD services.
 
 Coverage includes:
 
-* Service Usage
-* User Responsibilities
-* Account Security
-* Acceptable Use
-* Intellectual Property
-* Service Availability
-* Service Limitations
-* AI Service Usage
-* Third-party Services
-* Termination
-* Governing Law
-* Contact Information
+- Service usage
+- User responsibilities
+- Account security
+- Acceptable usage
+- Intellectual property
+- Service availability
+- Service limitations
+- Termination conditions
 
-### Public URL
+Public URL:
 
-```text
+```
 https://legal.talentbridgebd.com/terms
 ```
 
@@ -249,19 +161,21 @@ https://legal.talentbridgebd.com/terms
 
 # Architecture
 
-```text
+```
 GitHub Repository
 
 TBBD-Legal-Portal
 
-        │
+        |
+        |
         ▼
 
 Azure Static Web App
 
 tbbd-legal-portal
 
-        │
+        |
+        |
         ▼
 
 Custom Domain
@@ -273,211 +187,175 @@ legal.talentbridgebd.com
 
 # Azure Deployment Configuration
 
-| Component           | Configuration             |
-| ------------------- | ------------------------- |
-| Subscription        | TBBD Core Subscription    |
-| Resource Group      | TBBD-Web-Legal-RG         |
-| Azure Resource      | Azure Static Web App      |
-| Static Web App Name | tbbd-legal-portal         |
-| Cloud Platform      | Microsoft Azure           |
-| Deployment          | GitHub Actions            |
-| Source Control      | GitHub                    |
-| DNS Provider        | Azure DNS                 |
-| Domain Registrar    | Namecheap                 |
-| Custom Domain       | legal.talentbridgebd.com  |
-| SSL Certificate     | Azure Managed Certificate |
+## Subscription
+
+```
+TBBD Core Subscription
+```
+
+## Resource Group
+
+```
+TBBD-Web-Legal-RG
+```
+
+## Azure Resource
+
+```
+Azure Static Web App
+```
+
+## Static Web App Name
+
+```
+tbbd-legal-portal
+```
+
+## Custom Domain
+
+```
+legal.talentbridgebd.com
+```
 
 ---
 
 # Technology Stack
 
-| Component        | Technology                |
-| ---------------- | ------------------------- |
-| Hosting          | Azure Static Web Apps     |
-| Cloud Platform   | Microsoft Azure           |
-| Source Control   | GitHub                    |
-| CI/CD            | GitHub Actions            |
-| DNS Management   | Azure DNS                 |
-| Domain           | talentbridgebd.com        |
-| SSL Certificate  | Azure Managed Certificate |
-| Web Technologies | HTML5, CSS3, JavaScript   |
-| Version Control  | Git                       |
-| Documentation    | Markdown                  |
+| Component | Technology |
+|---|---|
+| Hosting | Azure Static Web Apps |
+| Cloud Platform | Microsoft Azure |
+| Source Control | GitHub |
+| Deployment | GitHub Actions |
+| DNS Management | Azure DNS |
+| Domain | talentbridgebd.com |
+| SSL Certificate | Azure Managed Certificate |
 
 ---
 
 # Deployment Flow
 
-```text
+```
 Developer
 
-      │
-      ▼
+    |
+    ▼
 
 GitHub Repository
 
 TBBD-Legal-Portal
 
-      │
-      ▼
+    |
+    ▼
 
 GitHub Actions
 
-      │
-      ▼
+    |
+    ▼
 
-Azure Static Web Apps
+Azure Static Web App
 
-      │
-      ▼
+    |
+    ▼
 
-Azure Managed Certificate
-
-      │
-      ▼
-
-Custom Domain
-
-legal.talentbridgebd.com
-
-      │
-      ▼
-
-Public Users
+https://legal.talentbridgebd.com
 ```
 
 ---
 
 # Domain Configuration
 
-## Primary Domain
+Main Domain:
 
-```text
+```
 talentbridgebd.com
 ```
 
-## Legal Portal Domain
+Legal Portal Domain:
 
-```text
+```
 legal.talentbridgebd.com
 ```
 
-## Purpose
+Purpose:
 
-The Legal Portal provides a dedicated location for:
+Dedicated location for:
 
-* Privacy Documentation
-* Terms of Service
-* Cookie Policy
-* Responsible AI Information
-* AI Governance
-* Security Information
-* Compliance Documentation
-* Legal Notices
-* Trust Center Resources
-* Future Legal Publications
+- Legal documentation
+- Privacy information
+- AI governance information
+- Security documentation
+- Compliance information
 
 ---
 
 # Future Expansion
 
-Future public legal and compliance documentation may include:
+Future documents may include:
 
-```text
+```
 TBBD-Legal-Portal
 
 ├── cookie-policy.html
 ├── ai-policy.html
-├── responsible-ai.html
 ├── security.html
-├── trust-center.html
-├── compliance.html
-├── accessibility.html
-├── acceptable-use.html
 ├── data-processing.html
-├── data-retention.html
-├── subprocessor-list.html
-└── transparency-report.html
+└── compliance.html
 ```
 
-These documents will strengthen enterprise governance, transparency, privacy protection, regulatory compliance, and responsible AI practices across TBBD digital platforms and Microsoft cloud services.
+These documents will provide additional enterprise governance information for TBBD AI platforms and digital services.
 
 ---
 
 # Ownership
 
-**Organization**
+Organization:
 
+```
 Talent Bridge BD (TBBD)
+```
 
-**Website**
+Website:
 
+```
 https://talentbridgebd.com
+```
 
-**Legal Portal**
+Legal Portal:
 
+```
 https://legal.talentbridgebd.com
-
-**Repository**
-
-TBBD-Legal-Portal
+```
 
 ---
 
 # Maintenance
 
-Legal and compliance documentation should be reviewed whenever:
+Legal documentation should be reviewed when:
 
-* New TBBD services are introduced
-* Microsoft cloud services change
-* AI capabilities expand
-* Data processing activities change
-* Security controls are updated
-* Microsoft integrations are modified
-* Regulatory requirements evolve
-* Privacy practices are revised
-* Compliance obligations change
+- New services are launched
+- AI capabilities change
+- Data processing activities change
+- Security controls change
+- Microsoft integrations change
+- Regulatory requirements evolve
 
-All documentation updates are managed through GitHub version control and follow TBBD documentation standards, change management practices, and governance processes.
+All updates are managed through GitHub version control.
 
 ---
 
 # License
 
-This repository and its contents are proprietary to **Talent Bridge BD (TBBD)**.
+This documentation is proprietary to Talent Bridge BD (TBBD).
 
-Unauthorized copying, modification, redistribution, or commercial use is prohibited without prior written authorization.
+Unauthorized copying, modification, or redistribution is not permitted without authorization.
+
+---
 
 © Talent Bridge BD (TBBD). All rights reserved.
 
----
+Deployment test Mon Jul 27 10:21:06 +06 2026
+Azure workflow trigger Mon Jul 27 10:28:37 +06 2026
+Retest Mon Jul 27 10:39:38 +06 2026
 
-# Deployment History
-
-| Activity                      | Date                         |
-| ----------------------------- | ---------------------------- |
-| Initial Deployment Test       | Mon Jul 27 10:21:06 +06 2026 |
-| Azure Workflow Trigger        | Mon Jul 27 10:28:37 +06 2026 |
-| Deployment Retest             | Mon Jul 27 10:39:38 +06 2026 |
-| Pages Refresh                 | 2026-08-02                   |
-| Pages Deployment Verification | Completed                    |
-
----
-
-# Contributing
-
-This repository is maintained by the Talent Bridge BD Technology Team.
-
-Public contributions are not accepted. Internal updates follow TBBD documentation standards, review processes, and enterprise governance policies.
-
----
-
-# Support
-
-For legal inquiries, compliance questions, or documentation updates, please contact the Talent Bridge BD Technology Team through official communication channels.
-
----
-
-**Talent Bridge BD (TBBD)**
-
-**Building Secure, Trusted, and Responsible Digital Solutions with Microsoft Cloud Technologies.**
+Deployment verification: 08/06/2026 22:10:58
