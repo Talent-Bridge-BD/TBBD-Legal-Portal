@@ -1,176 +1,333 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal Portal | Talent Bridge BD</title>
 
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            background: #f5f7fa;
-            color: #333;
-            line-height: 1.6;
+```
+<meta
+    name="description"
+    content="Talent Bridge BD Legal Portal — legal, privacy, governance, accessibility, and responsible technology information."
+>
+
+<meta name="author" content="Talent Bridge BD">
+
+<title>Legal Portal | Talent Bridge BD</title>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        background: #f5f7fa;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #0b5cab;
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 1.1rem;
+    }
+
+    nav {
+        background: #083b6e;
+        padding: 12px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 12px;
+        font-weight: bold;
+    }
+
+    nav a:hover,
+    nav a:focus {
+        text-decoration: underline;
+    }
+
+    nav a:focus,
+    a:focus {
+        outline: 3px solid #ffcc00;
+        outline-offset: 3px;
+    }
+
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    .card {
+        background: #ffffff;
+        border-radius: 8px;
+        padding: 25px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h2 {
+        color: #0b5cab;
+        margin-top: 0;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    a {
+        color: #0b5cab;
+    }
+
+    .document-links a {
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .document-links a:hover {
+        text-decoration: underline;
+    }
+
+    footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 25px 20px;
+        margin-top: 40px;
+    }
+
+    footer p {
+        margin: 8px 0;
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+    footer a:hover,
+    footer a:focus {
+        text-decoration: underline;
+    }
+
+    .copyright {
+        margin-top: 12px;
+        font-size: 0.9rem;
+        color: #ddd;
+    }
+
+    @media (max-width: 768px) {
+        nav a {
+            display: block;
+            margin: 8px 0;
         }
 
         header {
-            background: #0b5cab;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
+            padding: 35px 20px;
         }
 
         header h1 {
-            margin: 0;
-            font-size: 36px;
+            font-size: 2rem;
         }
 
         header p {
-            margin-top: 10px;
-            font-size: 18px;
-        }
-
-        nav {
-            background: #083b6e;
-            text-align: center;
-            padding: 12px;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 12px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
+            font-size: 1rem;
         }
 
         .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
+            margin: 25px auto;
+            padding: 0 15px;
         }
 
         .card {
-            background: white;
-            padding: 25px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
-
-        .card h2 {
-            color: #0b5cab;
-            margin-top: 0;
-        }
-
-        .document-links ul {
-            padding-left: 20px;
-        }
-
-        .document-links li {
-            margin-bottom: 10px;
-        }
-
-        .document-links a,
-        .contact a {
-            color: #0b5cab;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .document-links a:hover,
-        .contact a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            background: #222;
-            color: white;
-            text-align: center;
             padding: 20px;
-            margin-top: 40px;
         }
+    }
+</style>
+```
 
-        footer a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 6px;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            line-height: 1.8;
-        }
-    </style>
 </head>
 
 <body>
 
 <header>
-    <h1>TBBD Legal Portal</h1>
-    <p>Legal, Privacy, and Governance Documentation Platform</p>
+    <h1>Talent Bridge BD Legal Portal</h1>
+
+```
+<p>
+    Legal, privacy, governance, accessibility,
+    and responsible technology information.
+</p>
+```
+
 </header>
 
-<nav>
+<nav aria-label="Main navigation">
     <a href="index.html">Home</a>
     <a href="privacy.html">Privacy</a>
-    ">Terms</a>
+    <a href="terms.html">Terms</a>
     <a href="acceptable-use.html">Acceptable Use</a>
     <a href="ai-responsible-use.html">Responsible AI</a>
 </nav>
 
-<div class="container">
+<main class="container">
 
-    <div class="card">
-        <h2>About TBBD</h2>
+```
+<div class="card">
+    <h2>About TBBD</h2>
 
-        <p>
-            Talent Bridge BD (TBBD) provides digital solutions,
-            AI-powered services, and enterprise technology platforms
-            designed to support modern workforce and business operations.
-        </p>
+    <p>
+        Talent Bridge BD (TBBD) provides digital solutions,
+        AI-powered services, and enterprise technology platforms
+        designed to support modern workforce and business operations.
+    </p>
 
-        <p>
-            This portal provides transparent access to legal,
-            privacy, and governance information for TBBD services.
-        </p>
-    </div>
+    <p>
+        This portal provides transparent access to legal,
+        privacy, and governance information for applicable
+        TBBD services.
+    </p>
+</div>
 
-    <div class="card">
-        <h2>Supported Services</h2>
+<div class="card">
+    <h2>Supported Services</h2>
 
-        <ul>
-            <li>TBBD Workplace Assistant</li>
-            <li>TBBD TalentAI</li>
-            <li>TBBD HR Copilot</li>
-            <li>Microsoft Teams Applications</li>
-            <li>Azure AI-powered Solutions</li>
-            <li>Enterprise Automation Services</li>
-        </ul>
-    </div>
+    <ul>
+        <li>TBBD Workplace Assistant</li>
+        <li>TBBD TalentAI</li>
+        <li>TBBD HR Copilot</li>
+        <li>Microsoft Teams Applications</li>
+        <li>Azure AI-powered Solutions</li>
+        <li>Enterprise Automation Services</li>
+    </ul>
+</div>
 
-    <div class="card document-links">
-        <h2>Legal Documents</h2>
+<div class="card document-links">
+    <h2>Legal Documents</h2>
 
-        <ul>
-            <li><a href="privacy.html">Privacy Statement</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
-            <li><a href="acceptable-use.html">Acceptable Use</a></li>
-            <li><a href="cookie-policy.html">Cookie Policy</a></li>
-            <li><a href="accessibility.html">Accessibility</a></li>
-            <li><a href="ai-responsible-use.html">Responsible AI</a></li>
-        </ul>
-    </div>
+    <ul>
+        <li>
+            <a href="privacy.html">
+                Privacy Statement
+            </a>
+        </li>
 
-    <div class="card">
-        <h2>Commitment</h2>
+        <li>
+            <a href="terms.html">
+                Terms of Service
+            </a>
+        </li>
 
-        <p>
-            TBBD is committed to secure, responsible
+        <li>
+            <a href="acceptable-use.html">
+                Acceptable Use
+            </a>
+        </li>
+
+        <li>
+            <a href="cookie-policy.html">
+                Cookie Policy
+            </a>
+        </li>
+
+        <li>
+            <a href="accessibility.html">
+                Accessibility
+            </a>
+        </li>
+
+        <li>
+            <a href="ai-responsible-use.html">
+                Responsible AI
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>Commitment</h2>
+
+    <p>
+        TBBD is committed to secure, responsible, and transparent
+        technology practices.
+    </p>
+
+    <p>
+        We continuously improve our privacy, security, accessibility,
+        and governance practices to protect users and support trusted
+        digital services.
+    </p>
+</div>
+
+<div class="card">
+    <h2>Contact</h2>
+
+    <p>
+        <strong>Organization:</strong>
+        Talent Bridge BD (TBBD)
+    </p>
+
+    <p>
+        <strong>Website:</strong>
+        <a
+            href="https://talentbridgebd.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            talentbridgebd.com
+        </a>
+    </p>
+
+    <p>
+        <strong>Legal Portal:</strong>
+        <a
+            href="https://legal.talentbridgebd.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            legal.talentbridgebd.com
+        </a>
+    </p>
+</div>
+```
+
+</main>
+
+<footer>
+
+```
+<p>
+    <a href="privacy.html">Privacy</a> |
+    <a href="terms.html">Terms</a> |
+    <a href="acceptable-use.html">Acceptable Use</a> |
+    <a href="cookie-policy.html">Cookie Policy</a> |
+    <a href="accessibility.html">Accessibility</a> |
+    <a href="ai-responsible-use.html">Responsible AI</a>
+</p>
+
+<p class="copyright">
+    © Talent Bridge BD (TBBD). All rights reserved.
+</p>
+```
+
+</footer>
+
+</body>
+</html>
