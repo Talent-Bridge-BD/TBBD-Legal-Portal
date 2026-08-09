@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TBBD Legal Portal</title>
+    <title>Legal Portal | Talent Bridge BD</title>
 
     <style>
         body {
@@ -11,6 +11,7 @@
             margin: 0;
             background: #f5f7fa;
             color: #333;
+            line-height: 1.6;
         }
 
         header {
@@ -26,8 +27,25 @@
         }
 
         header p {
-            font-size: 18px;
             margin-top: 10px;
+            font-size: 18px;
+        }
+
+        nav {
+            background: #083b6e;
+            text-align: center;
+            padding: 12px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 12px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
         }
 
         .container {
@@ -46,15 +64,26 @@
 
         .card h2 {
             color: #0b5cab;
+            margin-top: 0;
         }
 
-        a {
+        .document-links ul {
+            padding-left: 20px;
+        }
+
+        .document-links li {
+            margin-bottom: 10px;
+        }
+
+        .document-links a,
+        .contact a {
             color: #0b5cab;
             text-decoration: none;
             font-weight: bold;
         }
 
-        a:hover {
+        .document-links a:hover,
+        .contact a:hover {
             text-decoration: underline;
         }
 
@@ -64,6 +93,16 @@
             text-align: center;
             padding: 20px;
             margin-top: 40px;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 6px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
 
         ul {
@@ -76,11 +115,16 @@
 
 <header>
     <h1>TBBD Legal Portal</h1>
-    <p>
-        Legal, Privacy, and Governance Documentation Platform
-    </p>
+    <p>Legal, Privacy, and Governance Documentation Platform</p>
 </header>
 
+<nav>
+    <a href="index.html">Home</a>
+    <a href="privacy.html">Privacy</a>
+    ">Terms</a>
+    <a href="acceptable-use.html">Acceptable Use</a>
+    <a href="ai-responsible-use.html">Responsible AI</a>
+</nav>
 
 <div class="container">
 
@@ -99,7 +143,6 @@
         </p>
     </div>
 
-
     <div class="card">
         <h2>Supported Services</h2>
 
@@ -113,93 +156,21 @@
         </ul>
     </div>
 
-
-    <div class="card">
+    <div class="card document-links">
         <h2>Legal Documents</h2>
 
-        <p>
-            <a href="privacy.html">
-                Privacy Statement
-            </a>
-        </p>
-
-        <p>
-            <a href="terms.html">
-                Terms of Service
-            </a>
-        </p>
-
-    <p>
-        <a href="acceptable-use.html">
-            Acceptable Use
-        </a>
-    </p>
-
-    <p>
-        <a href="cookie-policy.html">
-            Cookie Policy
-        </a>
-    </p>
-
-    <p>
-        <a href="accessibility.html">
-            Accessibility
-        </a>
-    </p>
-
-    <p>
-        <a href="ai-responsible-use.html">
-            Responsible AI
-        </a>
-    </p>
+        <ul>
+            <li><a href="privacy.html">Privacy Statement</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="acceptable-use.html">Acceptable Use</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="accessibility.html">Accessibility</a></li>
+            <li><a href="ai-responsible-use.html">Responsible AI</a></li>
+        </ul>
     </div>
-
 
     <div class="card">
         <h2>Commitment</h2>
 
         <p>
-            TBBD is committed to secure, responsible, and transparent
-            technology practices.
-        </p>
-
-        <p>
-            We continuously improve our privacy, security, and governance
-            practices to protect users and support trusted digital services.
-        </p>
-    </div>
-
-
-    <div class="card">
-        <h2>Contact</h2>
-
-        <p>
-            Organization:
-            <strong>Talent Bridge BD (TBBD)</strong>
-        </p>
-
-        <p>
-            Website:
-            <a href="https://talentbridgebd.com">
-                talentbridgebd.com
-            </a>
-        </p>
-
-        <p>
-            Legal Portal:
-            <a href="https://legal.talentbridgebd.com">
-                legal.talentbridgebd.com
-            </a>
-        </p>
-    </div>
-
-</div>
-
-
-<footer>
-    © Talent Bridge BD (TBBD). All rights reserved.
-</footer>
-
-
-</body>
-</html>
+            TBBD is committed to secure, responsible
